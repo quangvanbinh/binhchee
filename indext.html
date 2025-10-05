@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8">
+        <title>From Đăng Ký</title>
+        <link rel="stylesheet" href="filekynang3tulam.css">
+    </head>
+
+    <body>
+        <div class="form-container">
+            <h2>Form Đăng Ký</h2>
+            <div class="note">Vui lòng điền đầy đủ thông tin vào form bên dưới để đăng ký.</div> <br>
+
+            <div class="form">
+            <form action="">
+                <label>Họ và Tên:</label> <br>
+                <input type="text" placeholder="Nhập họ và tên"> <br>
+                <label>Email:</label> <br>
+                <input type="email" placeholder="Nhập email"> <br>
+
+                <label>Giới tính:</label> <br>
+                <input class="gioitinh" type="radio" name="gioitinh">Nam <br>
+                <input class="nu" type="radio" name="gioitinh">Nữ <br>
+
+                <label>Sở thích:</label> <br>
+                <input class="sothich" type="checkbox" name="sothich">Đọc sách <br>
+                <input type="checkbox" name="sothich">Du lịch <br>
+                <input class="thethao" type="checkbox" name="sothich">Thể thao <br>
+
+                <label>Quốc gia:</label> <br>
+                <select>
+                    <option>Chọn quốc gia</option>
+                    <option>Việt Nam</option>
+                    <option>Nhật Bản</option>
+                    <option>Thụy Sỹ</option>
+                </select>
+
+                <div class="bottons">
+                    <input class="dangky" type="submit" value="Đăng Ký">
+                    <input class="xoaform" type="reset" value="Xóa Form">
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
